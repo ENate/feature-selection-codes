@@ -25,7 +25,7 @@ def my_fun_file(choose_flag_0, sess):
     if choose_flag_0 == 1:
         # file containing Winsconsin cancer data set
         wdata = '~/forLenovoUbuntu/datfile/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
-        # heart_data = '/home/nath/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+        # heart_data = '~/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
         heart_data = '~/Desktop/saved_codes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
         # Load the data for pre-processing
         x_train_old, y_train_old = ProcessMyData().cancerdatadiagnosislabel(heart_data)

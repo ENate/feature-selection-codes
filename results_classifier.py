@@ -34,5 +34,5 @@ def func_prediction_analysis(predictions_nominal0, y_test):
     plt.ylim([0, 1])
     plt.ylabel('True Positive Rate')
     plt.xlabel('False Positive Rate')
-    gsaved.savefig('/home/nath/finalResults/classifiers/TFPF1.pdf')
+    gsaved.savefig('~/finalResults/classifiers/TFPF1.pdf')
     plt.show()

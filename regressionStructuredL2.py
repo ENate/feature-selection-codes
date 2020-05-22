@@ -312,11 +312,11 @@ def build_tf_nn(wb_sizes, ckpt_data, **kwargs1):
 
 
 if __name__ == '__main__':
-    mlabfile = '/home/nath/forLenovoUbuntu/datfile/sparsedat/testData.mat'
+    mlabfile = '~/forLenovoUbuntu/datfile/sparsedat/testData.mat'
     xtrain0, xt, ytr0, yt = ProcessMyData().load_solar_data(mlabfile, 'testData')
     # ################## cancer data #####################################
-    a_file = '/home/nath/LM_code_final/data/heartdisease/Integrated.csv'
-    smallfile_feats = '/home/nath/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+    a_file = '~/LM_code_final/data/heartdisease/Integrated.csv'
+    smallfile_feats = '~/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
     dat74features, _ = mainfile(a_file, smallfile_feats)
     formatted_data, x00_train, y_train, test_x, test_y = prep_data_2_train(dat74features)
     xvalues = x00_train.values

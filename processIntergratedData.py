@@ -121,10 +121,10 @@ def load_solar_data(mdatfile, datmsg):
 
 
 if __name__ == '__main__':
-    a_file = '/home/nath/forLenovoUbuntu/datfile/heartdisease/Integrated.csv'
-    # a_file = '/home/nath/LM_code_final/data/heartdisease/Integrated.csv'
-    # smallfile_feats = '/home/nath/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
-    # smallfile_feats = '/home/nath/Desktop/save_3.11/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+    a_file = '~/forLenovoUbuntu/datfile/heartdisease/Integrated.csv'
+    # a_file = '~/LM_code_final/data/heartdisease/Integrated.csv'
+    # smallfile_feats = '~/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+    # smallfile_feats = '~/Desktop/save_3.11/LM_code_final/data/otherdata/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
     dat74features = main_74b(a_file)
     x_train, x_test, y_train, y_test = prep_data_2_train(dat74features)
     # print(x00_train[0:10, 0:20])

@@ -370,8 +370,8 @@ def build_tf_nn(wb_sizes_classif, ckpt_data, **kwargs1):
 
 
 if __name__ == '__main__':
-    dfiletowrite = '/home/nath/UCIdata/'
-    heartdata = '/home/nath/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+    dfiletowrite = '~/UCIdata/'
+    heartdata = '~/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
     #datarray, yarray = ProcessMyData().heartdiseasedata(heartdata)
     #xy_train, xy_test, xy_valid = ProcessMyData().xtraintestdata(datarray, yarray, dfiletowrite)
     #nclasses = 1

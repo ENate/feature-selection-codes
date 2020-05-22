@@ -310,7 +310,7 @@ class ProcessMyData(object):
         return datcerv
 
     def heartdata74attr(filename_dat):
-        datwith74attributes = pd.read_csv('/home/nath/forLenovoUbuntu/datfileheartdisease')
+        datwith74attributes = pd.read_csv('~/forLenovoUbuntu/datfileheartdisease')
         return datwith74attributes
 
     def xread_csv(self, batch_size, file_name, record_defaults):
@@ -323,9 +323,9 @@ class ProcessMyData(object):
 
 if __name__ == '__main__':
     wdat = 'datafiles/breast-cancer-wisconsin-data/data.csv'
-    pdata = '/home/nath/forLenovoUbuntu/datfile/otherdata/datasets/parkinsons.data'
-    heartdata = '/home/nath/datafiles/wiscosincategoricaldata'
-    dataxy = '/home/nath/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
+    pdata = '~/forLenovoUbuntu/datfile/otherdata/datasets/parkinsons.data'
+    heartdata = '~/datafiles/wiscosincategoricaldata'
+    dataxy = '~/tfCodes/tfExample/datafiles/breast-cancer-wisconsin-data/data.csv'
     mlabfile = '~/JanMatlab/SparseNet12ab/testData.mat'
     riskfactorscervicalcancer = '~/tfExample/datafiles/risk_factors_cervical_cancer.csv'
     datfiletowrite = '~/projectphd/selectedwinfiles/alltests/NewFolder2112/SparseNet12ab/UCIDat.mat'
